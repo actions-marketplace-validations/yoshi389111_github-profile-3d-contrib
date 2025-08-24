@@ -6,6 +6,7 @@
 [English (en)](../README.md) |
 [Deutsch (de)](README.de.md) |
 [Español (es)](README.es.md) |
+Français (fr) |
 [日本語 (ja)](README.ja.md) |
 [한국어 (ko)](README.ko.md) |
 [Português (pt)](README.pt.md) |

@@ -3,7 +3,7 @@
 ![svg](https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/docs/demo/profile-gitblock.svg)
 
 <!-- Language code order (except English) -->
-<!-- [English (en)](README.md) | -->
+English (en) |
 [Deutsch (de)](docs/README.de.md) |
 [Español (es)](docs/README.es.md) |
 [Français (fr)](docs/README.fr.md) |

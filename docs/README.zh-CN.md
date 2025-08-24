@@ -11,6 +11,7 @@
 [한국어 (ko)](README.ko.md) |
 [Português (pt)](README.pt.md) |
 [Русский (ru)](README.ru.md) |
+简体中文 (zh-CN) |
 [繁體中文 (zh-TW)](README.zh-TW.md) |
 
 > [!NOTE]

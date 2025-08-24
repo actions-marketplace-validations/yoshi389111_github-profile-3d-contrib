@@ -7,6 +7,7 @@
 [Deutsch (de)](README.de.md) |
 [Español (es)](README.es.md) |
 [Français (fr)](README.fr.md) |
+日本語 (ja) |
 [한국어 (ko)](README.ko.md) |
 [Português (pt)](README.pt.md) |
 [Русский (ru)](README.ru.md) |

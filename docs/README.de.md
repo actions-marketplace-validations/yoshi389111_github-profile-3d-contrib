@@ -4,6 +4,7 @@
 
 <!-- Sprachreihenfolge (außer Englisch) -->
 [English (en)](../README.md) |
+Deutsch (de) |
 [Español (es)](README.es.md) |
 [Français (fr)](README.fr.md) |
 [日本語 (ja)](README.ja.md) |

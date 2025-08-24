@@ -12,6 +12,7 @@
 [Português (pt)](README.pt.md) |
 [Русский (ru)](README.ru.md) |
 [简体中文 (zh-CN)](README.zh-CN.md) |
+繁體中文 (zh-TW) |
 
 > [!NOTE]
 > 本翻譯由機器自動生成。
