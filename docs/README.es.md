@@ -5,6 +5,7 @@
 <!-- Orden del código de idioma (excepto inglés) -->
 [English (en)](../README.md) |
 [Deutsch (de)](README.de.md) |
+Español (es) |
 [Français (fr)](README.fr.md) |
 [日本語 (ja)](README.ja.md) |
 [한국어 (ko)](README.ko.md) |
