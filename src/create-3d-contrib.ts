@@ -7,8 +7,8 @@ const DARKER_RIGHT = 1;
 const DARKER_LEFT = 0.5;
 const DARKER_TOP = 0;
 
-const diffDate = (beforeDate: number, afterDate: number): number =>
-    Math.floor((afterDate - beforeDate) / (24 * 60 * 60 * 1000));
+const toEpochDays = (date: Date): number =>
+    Math.floor(date.getTime() / (24 * 60 * 60 * 1000));
 
 type PanelType = 'top' | 'left' | 'right';
 
@@ -184,10 +184,13 @@ export const create3DContrib = (
         return;
     }
 
-    const startTime = userInfo.contributionCalendar[0].date.getTime();
+    const firstDate = userInfo.contributionCalendar[0].date;
+    const sundayOfFirstWeek = toEpochDays(firstDate) - firstDate.getUTCDay();
+    const weekcount = Math.ceil(
+        (userInfo.contributionCalendar.length + firstDate.getUTCDay()) / 7.0,
+    );
     const dx = width / 64;
     const dy = dx * Math.tan(ANGLE * ((2 * Math.PI) / 360));
-    const weekcount = Math.ceil(userInfo.contributionCalendar.length / 7.0);
     const dxx = dx * 0.9;
     const dyy = dy * 0.9;
 
@@ -197,8 +200,10 @@ export const create3DContrib = (
     const group = svg.append('g');
 
     userInfo.contributionCalendar.forEach((cal) => {
+        const week = Math.floor(
+            (toEpochDays(cal.date) - sundayOfFirstWeek) / 7,
+        );
         const dayOfWeek = cal.date.getUTCDay(); // sun = 0, mon = 1, ...
-        const week = Math.floor(diffDate(startTime, cal.date.getTime()) / 7);
 
         const baseX = offsetX + (week - dayOfWeek) * dx;
         const baseY = offsetY + (week + dayOfWeek) * dy;
