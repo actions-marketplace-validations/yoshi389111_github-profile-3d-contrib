@@ -1,5 +1,13 @@
 # Change Log
 
+## 2025-09-13, 0.9.1 release
+
+* Fixed "week" to be calculated correctly even when the start date is not a Sunday. #126
+* Changed node version from 20 to 24. #119
+* Changed actions/checkout version from v4 to v5. #119
+* Added translations to the README file. #116
+* Updated the version of the dependent packages (via package-lock.json).
+
 ## 2025-03-13, 0.9.0 release
 
 * You can now specify `darkMode` definitions in custom JSON files that can be specified in `SETTINGS_JSON`. This allows you to generate svg that supports both light mode and dark mode. The light mode type and dark mode type must match. See `sample-settings/green.dual.json` for details.
