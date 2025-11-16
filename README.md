@@ -9,7 +9,7 @@ English (en) |
 [Français (fr)](docs/README.fr.md) |
 [日本語 (ja)](docs/README.ja.md) |
 [한국어 (ko)](docs/README.ko.md) |
-[Português (br)](README.pt-br.md) |
+[Português (pt-BR)](docs/README.pt-br.md) |
 [Português (pt)](docs/README.pt.md) |
 [Русский (ru)](docs/README.ru.md) |
 [简体中文 (zh-CN)](docs/README.zh-CN.md) |
