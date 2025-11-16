@@ -9,12 +9,11 @@
 [Français (fr)](README.fr.md) |
 [日本語 (ja)](README.ja.md) |
 [한국어 (ko)](README.ko.md) |
-Português (br) |
+Português (pt-BR) |
 [Português (pt)](README.pt.md) |
 [Русский (ru)](README.ru.md) |
 [简体中文 (zh-CN)](README.zh-CN.md) |
 [繁體中文 (zh-TW)](README.zh-TW.md) |
-
 
 ## Visão geral
 
@@ -116,7 +115,7 @@ Depois disso, defina esse segredo como valor da variável de ambiente `GITHUB_TO
 
 #### Sobre o horário do agendamento
 
-No exemplo, o início está definido para as 18:00 UTC. 
+No exemplo, o início está definido para as 18:00 UTC.
 Isso porque esse horário corresponde à meia-noite no fuso horário JST, que é o fuso horário local do autor.
 
 ```yaml
